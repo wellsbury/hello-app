@@ -1,7 +1,17 @@
 import streamlit as st 
 import pandas as pd
 
-st.title('My First Application')
+st.set_page_config(page_title='Bs First App',  layout='wide', page_icon=':guitar:')
+
+#this is the header
+ 
+
+t1, t2 = st.columns((0.07,1)) 
+
+t1.image('images/index.png', width = 120)
+t2.title("B's First Application")
+t2.markdown(" **tel:*** ****| website:** https://www.github.com/wellsbury **| email:** mailto:b@github.com")
+
 
 st.header('Testing Data Vizualiation')
 st.subheader('My Charts')
