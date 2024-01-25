@@ -6,7 +6,7 @@ st.set_page_config(page_title='Bs First App',  layout='wide', page_icon=':guitar
 #this is the header
  
 
-t1, t2 = st.columns((0.07,1)) 
+t1, t2 = st.columns((2,1)) 
 
 t1.image('images/dashboard_icon.png', width = 200)
 t2.title("B's First Application")
