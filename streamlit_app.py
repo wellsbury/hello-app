@@ -4,7 +4,7 @@ import pandas as pd
 st.set_page_config(page_title='Bs First App', layout='wide', page_icon=':guitar:')
 
 # This is the header
-t1, t2 = st.columns((0.07, 1))
+t1, t2 = st.columns((1, 13))
 
 with t1:
     st.image('images/dashboard_icon.png', width=150, use_column_width="always")
