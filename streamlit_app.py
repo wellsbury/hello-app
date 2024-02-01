@@ -18,7 +18,7 @@ with t2:
 st.header('Testing Data Visualization')
 st.subheader('My Charts')
 
-with st.expander("Hidden Data Table"):
+with st.expander("Hidden Data Table", expanded=True):
     # Replace 'your_file.csv' with the actual path to your CSV file
     file_path = 'https://raw.githubusercontent.com/wellsbury/hello-app/main/streamlit_test_data.csv'
 
