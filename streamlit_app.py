@@ -11,7 +11,7 @@ with t1:
 
 with t2:
     st.title("B's First Application")
-    st.markdown("**tel:*** ****| website:** https://www.github.com/wellsbury **| email:** mailto:b@github.com")
+    st.markdown("**tel:*** ****| website:** https://www.github.com/wellsbury **| email:** mailto: b@github.com")
 
 ## Data
 
